@@ -16,8 +16,8 @@
 //
 // Simple Usage:
 //	import(
-//		"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-//		"github.com/cnlh/nps/vender/github.com/astaxie/beego/plugins/apiauth"
+//		"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+//		"github.com/wailovet/nps/vender/github.com/astaxie/beego/plugins/apiauth"
 //	)
 //
 //	func main(){
@@ -65,8 +65,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context"
 )
 
 // AppIDToAppSecret is used to get appsecret throw appid

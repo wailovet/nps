@@ -1,12 +1,12 @@
 package proxy
 
 import (
-	"github.com/cnlh/nps/bridge"
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/conn"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/lib/pool"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/bridge"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/conn"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/lib/pool"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 	"net"
 	"strings"
 )

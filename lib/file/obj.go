@@ -1,8 +1,8 @@
 package file
 
 import (
-	"github.com/cnlh/nps/lib/rate"
 	"github.com/pkg/errors"
+	"github.com/wailovet/nps/lib/rate"
 	"strings"
 	"sync"
 	"time"

@@ -6,7 +6,7 @@ nps是一款轻量级、高性能、功能强大的**内网穿透**代理服务�
 
 
 ## 背景
-![image](https://github.com/cnlh/nps/blob/master/image/web.png?raw=true)
+![image](https://github.com/wailovet/nps/blob/master/image/web.png?raw=true)
 
 1. 做微信公众号开发、小程序开发等----> 域名代理模式
 
@@ -115,13 +115,13 @@ nps是一款轻量级、高性能、功能强大的**内网穿透**代理服务�
 ## 安装
 
 ### release安装
-> https://github.com/cnlh/nps/releases
+> https://github.com/wailovet/nps/releases
 
 下载对应的系统版本即可，服务端和客户端是单独的，go语言开发，无需任何第三方依赖
 
 ### 源码安装
 - 安装源码
-> go get -u github.com/cnlh/nps...
+> go get -u github.com/wailovet/nps...
 - 编译
 > go build cmd/nps/nps.go
 
@@ -258,7 +258,7 @@ port=2001
 
 ## web管理模式
 
-![image](https://github.com/cnlh/nps/blob/master/image/web2.png?raw=true)
+![image](https://github.com/wailovet/nps/blob/master/image/web2.png?raw=true)
 ### 介绍
 
 可在网页上配置和管理各个tcp、udp隧道、内网站点代理，http、https解析等，功能强大，操作方便。
@@ -427,7 +427,7 @@ server_ip=xxx
  ./npc -config=npc配置文件路径
 ```
 #### 配置文件说明
-[示例配置文件](https://github.com/cnlh/nps/tree/master/conf/npc.conf)
+[示例配置文件](https://github.com/wailovet/nps/tree/master/conf/npc.conf)
 ##### 全局配置
 ```ini
 [common]
@@ -917,7 +917,7 @@ POST /auth/getauthkey
 - 此文档近期可能更新较慢，建议自行抓包
 
 为方便第三方扩展，在web模式下可利用webAPI进行相关操作，详情见
-[webAPI文档](https://github.com/cnlh/nps/wiki/webAPI%E6%96%87%E6%A1%A3)
+[webAPI文档](https://github.com/wailovet/nps/wiki/webAPI%E6%96%87%E6%A1%A3)
 
 ## 贡献
 #### **欢迎参与到制作docker、图标、文档翻译等工作**
@@ -930,9 +930,9 @@ POST /auth/getauthkey
 如果您觉得nps对你有帮助，欢迎给予我们一定捐助，也是帮助nps更好的发展。
 
 ### 支付宝
-![image](https://github.com/cnlh/nps/blob/master/image/donation_zfb.png?raw=true)
+![image](https://github.com/wailovet/nps/blob/master/image/donation_zfb.png?raw=true)
 ### 微信
-![image](https://github.com/cnlh/nps/blob/master/image/donation_wx.png?raw=true)
+![image](https://github.com/wailovet/nps/blob/master/image/donation_wx.png?raw=true)
 ## 交流群
 
 ![二维码.jpeg](https://i.loli.net/2019/02/15/5c66c32a42074.jpeg)

@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
 )
 
 func TestYaml(t *testing.T) {

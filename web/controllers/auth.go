@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"encoding/hex"
-	"github.com/cnlh/nps/lib/crypt"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/lib/crypt"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
 	"time"
 )
 

@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/server"
-	"github.com/cnlh/nps/server/tool"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/server"
+	"github.com/wailovet/nps/server/tool"
 )
 
 type IndexController struct {

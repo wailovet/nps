@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context"
 )
 
 type testinfo struct {

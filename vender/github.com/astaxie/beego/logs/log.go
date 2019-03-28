@@ -15,7 +15,7 @@
 // Package logs provide a general log interface
 // Usage:
 //
-// import "github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+// import "github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 //
 //	log := NewLogger(10000)
 //	log.SetLogger("console", "")

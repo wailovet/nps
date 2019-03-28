@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 )
 
 type TestController struct {

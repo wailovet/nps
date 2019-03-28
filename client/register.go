@@ -2,7 +2,7 @@ package client
 
 import (
 	"encoding/binary"
-	"github.com/cnlh/nps/lib/common"
+	"github.com/wailovet/nps/lib/common"
 	"log"
 	"os"
 )

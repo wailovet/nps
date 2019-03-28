@@ -20,8 +20,8 @@
 //
 // Usage:
 //  import(
-//    _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/config/xml"
-//      "github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
+//    _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/config/xml"
+//      "github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
 //  )
 //
 //  cnf, err := config.NewConfig("xml", "config.xml")
@@ -40,7 +40,7 @@ import (
 	"sync"
 
 	"github.com/beego/x2j"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
 )
 
 // Config is a xml config parser and implements Config interface.

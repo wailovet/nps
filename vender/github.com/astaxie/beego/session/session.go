@@ -16,7 +16,7 @@
 //
 // Usage:
 // import(
-//   "github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+//   "github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 // )
 //
 //	func init() {

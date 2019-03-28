@@ -1,12 +1,12 @@
 package client
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/config"
-	"github.com/cnlh/nps/lib/conn"
-	"github.com/cnlh/nps/lib/mux"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
-	"github.com/cnlh/nps/vender/github.com/xtaci/kcp"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/config"
+	"github.com/wailovet/nps/lib/conn"
+	"github.com/wailovet/nps/lib/mux"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/vender/github.com/xtaci/kcp"
 	"net"
 	"os"
 	"time"

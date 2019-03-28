@@ -15,7 +15,7 @@
 // Package validation for validations
 //
 //	import (
-//		"github.com/cnlh/nps/vender/github.com/astaxie/beego/validation"
+//		"github.com/wailovet/nps/vender/github.com/astaxie/beego/validation"
 //		"log"
 //	)
 //

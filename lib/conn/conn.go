@@ -5,14 +5,14 @@ import (
 	"bytes"
 	"encoding/binary"
 	"errors"
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/config"
-	"github.com/cnlh/nps/lib/crypt"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/lib/mux"
-	"github.com/cnlh/nps/lib/pool"
-	"github.com/cnlh/nps/lib/rate"
-	"github.com/cnlh/nps/vender/github.com/xtaci/kcp"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/config"
+	"github.com/wailovet/nps/lib/crypt"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/lib/mux"
+	"github.com/wailovet/nps/lib/pool"
+	"github.com/wailovet/nps/lib/rate"
+	"github.com/wailovet/nps/vender/github.com/xtaci/kcp"
 	"io"
 	"net"
 	"net/http"
@@ -443,7 +443,7 @@ func CopyWaitGroup(conn1, conn2 net.Conn, crypt bool, snappy bool, rate *rate.Ra
 }
 
 //get crypt or snappy conn
-func GetConn(conn net.Conn, cpt, snappy bool, rt *rate.Rate, isServer bool) (io.ReadWriteCloser) {
+func GetConn(conn net.Conn, cpt, snappy bool, rt *rate.Rate, isServer bool) io.ReadWriteCloser {
 	if cpt {
 		if isServer {
 			return rate.NewRateConn(crypt.NewTlsServerConn(conn), rt)

@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/lib/rate"
-	"github.com/cnlh/nps/server"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/lib/rate"
+	"github.com/wailovet/nps/server"
 )
 
 type ClientController struct {

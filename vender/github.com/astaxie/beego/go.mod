@@ -1,4 +1,4 @@
-module github.com/cnlh/nps/vender/github.com/astaxie/beego
+module github.com/wailovet/nps/vender/github.com/astaxie/beego
 
 require (
 	golang.org/x/crypto v0.0.0-20180723164146-c126467f60eb

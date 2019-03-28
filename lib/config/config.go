@@ -2,8 +2,8 @@ package config
 
 import (
 	"errors"
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/file"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/file"
 	"regexp"
 	"strings"
 )

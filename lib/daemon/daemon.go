@@ -1,7 +1,7 @@
 package daemon
 
 import (
-	"github.com/cnlh/nps/lib/common"
+	"github.com/wailovet/nps/lib/common"
 	"io/ioutil"
 	"log"
 	"os"

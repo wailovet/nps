@@ -2,7 +2,7 @@ package mux
 
 import (
 	"errors"
-	"github.com/cnlh/nps/lib/pool"
+	"github.com/wailovet/nps/lib/pool"
 	"sync"
 )
 

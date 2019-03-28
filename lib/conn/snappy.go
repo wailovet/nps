@@ -1,9 +1,9 @@
 package conn
 
 import (
-	"github.com/cnlh/nps/lib/pool"
-	"github.com/cnlh/nps/lib/rate"
-	"github.com/cnlh/nps/vender/github.com/golang/snappy"
+	"github.com/wailovet/nps/lib/pool"
+	"github.com/wailovet/nps/lib/rate"
+	"github.com/wailovet/nps/vender/github.com/golang/snappy"
 	"io"
 )
 

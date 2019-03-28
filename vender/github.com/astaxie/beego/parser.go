@@ -30,16 +30,16 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context/param"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/utils"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context/param"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/utils"
 )
 
 var globalRouterTemplate = `package routers
 
 import (
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context/param"{{.globalimport}}
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context/param"{{.globalimport}}
 )
 
 func init() {

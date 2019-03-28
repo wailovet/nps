@@ -1,9 +1,9 @@
 package mux
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/pool"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/pool"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 	"log"
 	"net"
 	"net/http"

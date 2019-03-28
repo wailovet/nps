@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	conn2 "github.com/cnlh/nps/lib/conn"
-	"github.com/cnlh/nps/lib/file"
+	"github.com/wailovet/nps/lib/common"
+	conn2 "github.com/wailovet/nps/lib/conn"
+	"github.com/wailovet/nps/lib/file"
 	"net"
 	"sync"
 	"testing"

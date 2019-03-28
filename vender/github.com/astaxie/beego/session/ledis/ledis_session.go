@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 	"github.com/siddontang/ledisdb/config"
 	"github.com/siddontang/ledisdb/ledis"
 )

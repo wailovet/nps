@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/conn"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/conn"
 	"net"
 	"strconv"
 	"time"

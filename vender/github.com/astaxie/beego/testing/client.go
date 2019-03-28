@@ -15,8 +15,8 @@
 package testing
 
 import (
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/httplib"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/httplib"
 )
 
 var port = ""

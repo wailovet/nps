@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/session/redis"
-//   "github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+//   _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/session/redis"
+//   "github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 // )
 //
 // 	func init() {
@@ -39,7 +39,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 
 	"github.com/gomodule/redigo/redis"
 )

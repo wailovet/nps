@@ -16,9 +16,9 @@ package authz
 
 import (
 	"github.com/casbin/casbin"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/plugins/auth"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/plugins/auth"
 	"net/http"
 	"net/http/httptest"
 	"testing"

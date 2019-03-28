@@ -26,8 +26,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/utils"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/utils"
 )
 
 var (

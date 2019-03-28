@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
 	"log"
 	"path/filepath"
 	"strconv"

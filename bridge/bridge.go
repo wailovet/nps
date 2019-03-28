@@ -4,16 +4,16 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/conn"
-	"github.com/cnlh/nps/lib/crypt"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/lib/mux"
-	"github.com/cnlh/nps/lib/version"
-	"github.com/cnlh/nps/server/connection"
-	"github.com/cnlh/nps/server/tool"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/conn"
+	"github.com/wailovet/nps/lib/crypt"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/lib/mux"
+	"github.com/wailovet/nps/lib/version"
+	"github.com/wailovet/nps/server/connection"
+	"github.com/wailovet/nps/server/tool"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 	"net"
 	"os"
 	"strconv"
@@ -146,7 +146,7 @@ func (s *Bridge) GetHealthFromClient(id int, c *conn.Conn) {
 			})
 		}
 	}
-	s.DelClient(id, )
+	s.DelClient(id)
 }
 
 //验证失败，返回错误验证flag，并且关闭连接

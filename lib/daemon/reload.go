@@ -3,8 +3,8 @@
 package daemon
 
 import (
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
 	"os"
 	"os/signal"
 	"path/filepath"

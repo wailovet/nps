@@ -38,8 +38,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/session/postgresql"
-//   "github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+//   _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/session/postgresql"
+//   "github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 // )
 //
 //	func init() {
@@ -56,7 +56,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 	// import postgresql Driver
 	_ "github.com/lib/pq"
 )

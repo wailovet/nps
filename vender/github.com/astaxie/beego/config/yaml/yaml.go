@@ -20,8 +20,8 @@
 //
 // Usage:
 //  import(
-//   _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/config/yaml"
-//     "github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
+//   _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/config/yaml"
+//     "github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
 //  )
 //
 //  cnf, err := config.NewConfig("yaml", "config.yaml")
@@ -41,7 +41,7 @@ import (
 	"sync"
 
 	"github.com/beego/goyaml2"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/config"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/config"
 )
 
 // Config is a yaml config parser and implements Config interface.

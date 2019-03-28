@@ -17,7 +17,7 @@ package migration
 import (
 	"fmt"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
 )
 
 // Index struct defines the structure of Index Columns

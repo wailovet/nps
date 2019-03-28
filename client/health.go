@@ -2,11 +2,11 @@ package client
 
 import (
 	"container/heap"
-	"github.com/cnlh/nps/lib/conn"
-	"github.com/cnlh/nps/lib/file"
-	"github.com/cnlh/nps/lib/sheap"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
 	"github.com/pkg/errors"
+	"github.com/wailovet/nps/lib/conn"
+	"github.com/wailovet/nps/lib/file"
+	"github.com/wailovet/nps/lib/sheap"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 	"net"
 	"net/http"
 	"strings"
@@ -70,7 +70,7 @@ func check(t *file.Health) {
 	var rs *http.Response
 	for _, v := range arr {
 		if t.HealthCheckType == "tcp" {
-			_, err = net.DialTimeout("tcp", v, time.Duration(t.HealthCheckTimeout)*time.Second);
+			_, err = net.DialTimeout("tcp", v, time.Duration(t.HealthCheckTimeout)*time.Second)
 		} else {
 			client := &http.Client{}
 			client.Timeout = time.Duration(t.HealthCheckTimeout) * time.Second

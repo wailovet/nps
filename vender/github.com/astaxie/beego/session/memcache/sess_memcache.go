@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/session/memcache"
-//   "github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+//   _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/session/memcache"
+//   "github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 // )
 //
 //	func init() {
@@ -37,7 +37,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 
 	"github.com/bradfitz/gomemcache/memcache"
 )

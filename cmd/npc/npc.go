@@ -2,11 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/cnlh/nps/client"
-	"github.com/cnlh/nps/lib/common"
-	"github.com/cnlh/nps/lib/daemon"
-	"github.com/cnlh/nps/lib/version"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/logs"
+	"github.com/wailovet/nps/client"
+	"github.com/wailovet/nps/lib/common"
+	"github.com/wailovet/nps/lib/daemon"
+	"github.com/wailovet/nps/lib/version"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/logs"
 	"os"
 	"strings"
 	"time"

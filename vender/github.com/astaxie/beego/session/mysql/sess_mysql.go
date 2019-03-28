@@ -28,8 +28,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/cnlh/nps/vender/github.com/astaxie/beego/session/mysql"
-//   "github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+//   _ "github.com/wailovet/nps/vender/github.com/astaxie/beego/session/mysql"
+//   "github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 // )
 //
 //	func init() {
@@ -46,7 +46,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/session"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/session"
 	// import mysql driver
 	_ "github.com/go-sql-driver/mysql"
 )

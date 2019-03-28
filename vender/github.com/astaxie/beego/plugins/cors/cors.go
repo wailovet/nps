@@ -15,8 +15,8 @@
 // Package cors provides handlers to enable CORS support.
 // Usage
 //	import (
-// 		"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-//		"github.com/cnlh/nps/vender/github.com/astaxie/beego/plugins/cors"
+// 		"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+//		"github.com/wailovet/nps/vender/github.com/astaxie/beego/plugins/cors"
 // )
 //
 //	func main() {
@@ -42,8 +42,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego"
-	"github.com/cnlh/nps/vender/github.com/astaxie/beego/context"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego"
+	"github.com/wailovet/nps/vender/github.com/astaxie/beego/context"
 )
 
 const (

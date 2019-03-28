@@ -1,7 +1,7 @@
 package file
 
 import (
-	"github.com/cnlh/nps/lib/common"
+	"github.com/wailovet/nps/lib/common"
 	"sync"
 )
 
